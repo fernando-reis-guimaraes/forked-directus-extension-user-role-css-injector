@@ -28,6 +28,7 @@
     "host": "^10.10.0"
   },
   "scripts": {
+    "prepack": "npm run build",
     "build": "directus-extension build",
     "dev": "directus-extension build -w --no-minify",
     "link": "directus-extension link"
